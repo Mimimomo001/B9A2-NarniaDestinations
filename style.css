@@ -8,7 +8,7 @@
     .nav_bar .title{
         display: flex;
         align-items: center;
-        font-family: "Mulish", Helvetica;
+        font-family: "Mulish-Regular", Helvetica, Helvetica;
         font-style: regular;
         font-weight: 800;
         gap: 16.63px;
@@ -68,7 +68,7 @@
 }
     .welcome_box h1{
         color: #FFF;
-        font-family: Mulish;
+        font-family: "Mulish-Regular", Helvetica;
         font-size: 45px;
         font-style: normal;
         font-weight: 800;
@@ -76,7 +76,7 @@
 
     .welcome_box h3{
         color: #FFF;
-        font-family: Mulish;
+        font-family: "Mulish-Regular", Helvetica;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
@@ -109,7 +109,7 @@
             border: none;
             background: #FFF;
             color: rgba(19, 19, 24, 0.50);
-            font-family: Mulish;
+            font-family: "Mulish-Regular", Helvetica;
             font-size: 16px;
             font-style: normal;
             font-weight: 400;
@@ -125,10 +125,71 @@
             background: steelblue;
             border: none; 
             color: white; 
-            font-family: Mulish;
+            font-family: "Mulish-Regular", Helvetica;
             font-size: 16px;
             font-style: normal;
             font-weight: 700;
             text-align: center;
             transition: 0.1s;
         }
+        .cont2{
+            display: flex;
+            padding: 100px 0px 0px 0px;
+            justify-content: center;
+        }
+        
+            .tours{
+                display: flex;
+            }
+                .t3{
+                    width: 400px;
+                    margin-right: 53px;
+                }
+                .t3 h1{
+                    color: #131318;
+                    font-family: "Mulish-Regular", Helvetica;
+                    font-size: 40px;
+                    font-style: normal;
+                    font-weight: 600;
+                }
+    
+                .t3 .list{
+                    color: rgba(19, 19, 24, 0.70);
+                    font-family: "Mulish-Regular", Helvetica;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400; 
+                }
+    
+                .t3 h3{
+                    color: rgba(19, 19, 24, 0.70);
+                    font-family: "Mulish-Regular", Helvetica;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                }        
+    
+                .read_more{
+                    color: rgba(19, 19, 24, 0.70);
+                    margin-top: 48px;
+            }
+            .b1{
+                width: 174px;
+                height: 52px;
+                flex-shrink: 0;
+                border-radius: 8px;
+                background: steelblue;
+                border: none; 
+                color: white; 
+                font-family: "Mulish-Regular", Helvetica;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                text-align: center;
+                transition: 0.1s;
+            }
+            .img3{
+                width: 440px;
+                height: 450px;
+                flex-shrink: 0;  
+            }
