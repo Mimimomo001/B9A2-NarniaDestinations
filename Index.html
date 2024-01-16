@@ -3,9 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Narnia Destinations</title>
+    <link rel = "stylesheet" href = "style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Mulish:700,800,400|Inter:300,400"rel="stylesheet">
 </head>
 <body>
+    <nav class="nav_bar">
+            <section class="title">
+                <img class="logo" src="res/logo.svg" alt="logo">
+                <p class="title_style"><span class="t1">Narnia </span> <span class="t2">Destinations</p>
+            </section>
+            <section class="nav_links">
+                <button>Home</button>
+                <button>Packages</button>
+                <button>Testimonial</button>
+                <button>Blog</button>
+                <button>Contact</button>
+            </section>
+    </nav>
+    <section class="cont1">
+        <section class="welcome_box">
+            <div>
+                <h1>Explore Famous Narnian Landmarks</h1>
+                <h3>Step into Narnia, talking creatures and magical realms await as lamp posts illuminate your path</h3>
+            </div>
+                <div class="form_opts">
+                    <form action="">
+                        <input type="text" placeholder="Where go" required>
+                        <select name="when"  required>
+                            <option value="0" selected>When</option>
+                            <option value="1">Jan 16, 2024</option>
+                            <option value="2">Jan 17, 2024</option>
+                            <option value="3">Jan 18, 2024</option>
+                            <option value="4">Jan 19, 2024</option>
+                            <option value="5">Jan 20, 2024</option>
+                            <option value="6">Choose Date</option>
+                        </select>
+                        <select name="type" required>
+                            <option value="" selected>Select type</option>
+                            <option value="1">Closet Door</option>
+                            <option value="2">Boat</option>
+                            <option value="3">Magic</option>
+                        </select>
+                        <input class="find" type="submit" value="Find Now">
+                    </form>
+                </div>
+        </section>
+    </section>
     
 </body>
-</html> 
+</html>  
