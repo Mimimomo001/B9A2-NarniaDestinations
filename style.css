@@ -2,18 +2,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 15px 0px 15px;
+    padding: 0px 25px 0px 25px;
     margin-bottom: 30px;
 }
     .nav_bar .title{
         display: flex;
         align-items: center;
-        font-family: "Mulish-Regular", Helvetica, Helvetica;
+        font-family: "Mulish-Regular", Helvetica;
         font-style: regular;
-        font-weight: 800;
+        font-weight: 750;
         gap: 16.63px;
         color: transparent;
-        font-size: 36px;
+        font-size: 32px;
         line-height: normal;
     }
       .nav_bar .t1{
@@ -71,7 +71,7 @@
         font-family: "Mulish-Regular", Helvetica;
         font-size: 45px;
         font-style: normal;
-        font-weight: 800;
+        font-weight: 700;
     }
 
     .welcome_box h3{
@@ -190,9 +190,85 @@
                 transition: 0.1s;
             }
             .img4{
-                width: 440px;
-                height: 450px;
+                width: 540px;
+                height: 550px;
                 flex-shrink: 0;  
+                margin-left: 80px;
+            }
+        .dest .dest_title{
+            color: #131318;
+            font-family: "Mulish-Regular", Helvetica;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+        .dest .dest_desc{
+            color: rgba(19, 19, 24, 0.70);
+            font-family: "Mulish-Regular", Helvetica;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+        }
+            .places_foto{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 20px;
+                height: 290px;
+                text-align: center;
+                position: relative;
+            }
+            .places_foto img{
+               height: 96%;
+            }
+            .box-middle img{
+                height: 91.9%;
+            }
+            .Pic{
+                top: 50%;
+                left: 50%;
+                position: absolute;
+                text-align: center;
+                font-size: 20px;
+                font-weight: 700;
+                color: #FFF;
+                
+            }
+            .num1{
+                transform: translate(-370%, -50%);
+                font-family: "Mulish-Regular", Helvetica;
+                
+            }
+            .num2{
+                transform: translate(250%, -50%);
+                font-family: "Mulish-Regular", Helvetica;
+            }
+            .num3{
+                transform: translate(-530%, -50%);
+                font-family: "Mulish-Regular", Helvetica;
+            }
+            .num4{
+                transform: translate(-25%, -50%);
+                font-family: "Mulish-Regular", Helvetica;
+            }
+            .num5{
+                transform: translate(460%, -50%);
+                font-family: "Mulish-Regular", Helvetica;
+            }
+            .num6{
+                transform: translate(-325%, -50%);
+                font-family: "Mulish-Regular", Helvetica;
+            }
+            .num7{
+                transform: translate(165%, -50%);
+                font-family: "Mulish-Regular", Helvetica;
+            }
+            .dest_div{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
             }
             footer{
                 background-color: rgba(19, 19, 24, 0.05);
